@@ -83,13 +83,15 @@
 
                         <TextView
                             android:id="@+id/tv_days"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="00"
                             android:textColor="@color/accent_green"
-                            android:textSize="64sp"
+                            android:textSize="40sp"
                             android:textStyle="bold"
-                            android:fontFamily="monospace" />
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:maxLines="1" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -107,9 +109,9 @@
                         android:layout_height="wrap_content"
                         android:text=":"
                         android:textColor="@color/text_secondary"
-                        android:textSize="48sp"
+                        android:textSize="30sp"
                         android:textStyle="bold"
-                        android:paddingBottom="16dp" />
+                        android:paddingBottom="10dp" />
 
                     <!-- Hours -->
                     <LinearLayout
@@ -121,13 +123,15 @@
 
                         <TextView
                             android:id="@+id/tv_hours"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="00"
                             android:textColor="@color/text_primary"
-                            android:textSize="64sp"
+                            android:textSize="40sp"
                             android:textStyle="bold"
-                            android:fontFamily="monospace" />
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:maxLines="1" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -145,9 +149,9 @@
                         android:layout_height="wrap_content"
                         android:text=":"
                         android:textColor="@color/text_secondary"
-                        android:textSize="48sp"
+                        android:textSize="30sp"
                         android:textStyle="bold"
-                        android:paddingBottom="16dp" />
+                        android:paddingBottom="10dp" />
 
                     <!-- Minutes -->
                     <LinearLayout
@@ -159,13 +163,15 @@
 
                         <TextView
                             android:id="@+id/tv_minutes"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="00"
                             android:textColor="@color/text_primary"
-                            android:textSize="64sp"
+                            android:textSize="40sp"
                             android:textStyle="bold"
-                            android:fontFamily="monospace" />
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:maxLines="1" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -183,9 +189,9 @@
                         android:layout_height="wrap_content"
                         android:text=":"
                         android:textColor="@color/text_secondary"
-                        android:textSize="48sp"
+                        android:textSize="30sp"
                         android:textStyle="bold"
-                        android:paddingBottom="16dp" />
+                        android:paddingBottom="10dp" />
 
                     <!-- Seconds -->
                     <LinearLayout
@@ -197,13 +203,15 @@
 
                         <TextView
                             android:id="@+id/tv_seconds"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="00"
                             android:textColor="@color/text_primary"
-                            android:textSize="64sp"
+                            android:textSize="40sp"
                             android:textStyle="bold"
-                            android:fontFamily="monospace" />
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:maxLines="1" />
 
                         <TextView
                             android:layout_width="wrap_content"
